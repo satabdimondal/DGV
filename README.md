@@ -61,10 +61,3 @@ CREATE TABLE [dbo].[InfoTable] ( </br>
     - Select a user from the list (to be displayed in the bottom section of the form).
     - Click **Delete** to remove the user from the system.
 
-## Future Enhancements
-
-- **Search Functionality**: Add a search bar to filter users.
-- **Database Integration**: Connect the application to a database (e.g., SQL Server) to persist user data.
-- **Validation**: Add field validation (e.g., required fields, phone number format).
-- **UI Improvements**: Enhance the design and layout of the form.
-
