@@ -1,7 +1,3 @@
-Here's the README file specifically tailored for your C# Windows Forms project:
-
----
-
 # User Management System - C# Windows Forms Application
 
 This is a simple **User Management System** developed using **C# Windows Forms**. It allows users to **add**, **update**, and **delete** user information such as First Name, Last Name, Phone Number, Address, and Username. The application is designed to provide basic CRUD operations for managing users.
@@ -22,6 +18,22 @@ This is a simple **User Management System** developed using **C# Windows Forms**
     - **Update**: Updates the selected user's details.
     - **Delete**: Deletes the selected user from the system.
   - **Data Grid / List Area**: Displays the list of users (can be implemented using a `DataGridView` or List).
+ 
+## Gui Layout
+![c#-1](https://github.com/user-attachments/assets/6fb3f27a-600a-46ee-9a7f-e35be83f5ceb)
+
+## Database
+![Screenshot 2024-09-19 233546](https://github.com/user-attachments/assets/36250f4c-8c25-4ef7-951c-7efc96cf965e)
+
+Table: </br>
+CREATE TABLE [dbo].[InfoTable] ( </br>
+    [FirstName] VARCHAR (50)  NOT NULL, </br>
+    [LastName]  VARCHAR (50)  NOT NULL, </br>
+    [UserName]  VARCHAR (50)  NOT NULL, </br>
+    [PhoneNo]   INT           NOT NULL, </br>
+    [Address]   VARCHAR (100) NOT NULL, </br>
+    PRIMARY KEY CLUSTERED ([UserName] ASC) </br>
+);
 
 ## Requirements
 
@@ -56,10 +68,3 @@ This is a simple **User Management System** developed using **C# Windows Forms**
 - **Validation**: Add field validation (e.g., required fields, phone number format).
 - **UI Improvements**: Enhance the design and layout of the form.
 
-## Contributing
-
-Contributions are welcome! Feel free to fork this repository and submit a pull request for any improvements or bug fixes.
-
----
-
-This README can be modified as needed, depending on further project details or any additional features you might add.
